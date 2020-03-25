@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cera Pro';
+}
+.header {
+	height: 80px;
+	position: relative;
+}
+.write-us {
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	background: none;
+	border: none;
+	font-size: 1.3rem;
+	color: rgb(50, 60, 70);
+	outline: none;
+	cursor: pointer;
+}
+
+.main-nav__wrap {
+	height: 320px;
+}
+.interior__wrap {
+	padding-top: 1px;
+	height: 520px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../img/project/inrerior.jpg');
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.interior__text {
+	margin-top: 100px;
+}
+.interior__text h3 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 2.2rem;
+	color: rgb(50, 60, 70);
+	margin-top: 120px;
+}
+.interior__text span {
+	color: rgb(100, 110, 120);
+	font-weight: 500;
+}
+.interior__text p {
+	margin-top: 60px;
+	color: rgb(50, 60, 70);
+	line-height: 1.4;
+	font-size: 1rem;
+}
+
+/*****
+popup-module 
+*****/
+.popup-module__wrap {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 20;
+	background: rgba(70, 80, 90, 0.3);
+	display: none;
+}
+.popup-module {
+	width: 450px;
+	background: #ffffff;
+	box-shadow: 5px 5px 8px rgba(160, 170, 180, 0.3);
+	padding-bottom: 240px;
+	margin: auto;
+}
+.popup-module__wrap.active {
+	display: flex;
+	align-items: flex-start;
+}
+.popup-module__close-btn {
+	background: none;
+	border: none;
+	/*padding: 8px 12px;*/
+	float: right;
+	margin: 16px;
+	cursor: pointer;
+	font-size: 0.9rem;
+	outline: none;
+	border: 1px solid #ffffff;
+	transition: all 300ms ease-out;
+}
+.popup-module__close-btn:hover {
+	color: #48546c;
+}
+.popup-module img {
+	display: block;
+	width: 100%;
+}
+@keyframes displayPopUp {
+	
+}
+
+/*****
+qoute
+*****/
+.qoute__wrap {
+	margin-top: 160px;
+	height: 260px;
+	background: rgb(245, 247, 250);
+}
