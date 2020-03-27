@@ -13,35 +13,81 @@
 
   <body>
     <header class="header">
-      <button class="write-us">write us</button>
+      <a href="" class="logo"> <span>logo</span> </a>
+
+      <div class="header-action-wrap">
+        <div class="callback-btn"> <span>callback</span> </div>
+        <div class="reservation-btn"> <span>reservation</span> </div>
+      </div>
+
+      <div class="menu-btn">
+        <div class="point-wrap">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </header>
 
-    <div class="main-nav__wrap"></div>
-
-    <div class="interior__wrap">
-      <div class="container interior__text">
-        <span>Contacts</span>
-        <h3>Amsterdam office</h3>
-        <p>1207 Washington St. Suite 215<br>Vancouver, WA 98660</p>
-      </div>
-    </div>
-
-    <div class="popup-module__wrap">
-      <div class="popup-module">
-          <button class="popup-module__close-btn">close</button>
-          <img src="assets/img/project/modal.jpg" alt="project">
-      </div>
-    </div>
-
-    <div class="qoute__wrap">
+    <div class="main-screen">
       
+      <div class="main-content-wrap">
+        <div class="main-content">
+          <div class="main-title">
+            <span> boreal bistro </span>
+            <h1>Forky's</h1>
+          </div>
+
+          <div class="main-resevation">
+            
+          </div>
+        </div>
+
+        <div class="main-img"></div>
+      </div>
+
+      <div class="main-adress">
+        <span> Adress </span>
+        <p> Rua Santa Marinha, No 26, Lissbon 1100-491 <br>
+        +351 21 887 2746</p>
+      </div>
+
+      <div class="main-sosial">
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
     </div>
 
-    <div class="form">
-      <form id="form">
-        <input type="text" name="name" id="name">
-        <button> submit </button>
-      </form>
+    <div class="modal-wrap  modal-callback-wrap" id="callback" data-modal>
+      <div class="modal modal-callback">
+        <button class="modal-close-btn"> close </button>
+
+        <form class="modal-form  modal-callback-form">
+          <input type="text" name="name" placeholder="name">
+          <input type="text" name="phone" placeholder="phone">
+          <input type="submit" name="submit" value="send">
+        </form>
+
+      </div>
+    </div>
+
+    <div class="modal-wrap  modal-subscribe" id="subscribe" data-modal>
+      <div class="modal modal-subscribe">
+        <button class="modal-close-btn"> close </button>
+
+        <form class="modal-form  modal-subscribe-form">
+          <input type="text" name="name" placeholder="name">
+          <input type="text" name="phone" placeholder="phone">
+          <input type="submit" name="submit" value="subscribe">
+        </form>
+
+      </div>
     </div>
 
     <script src="script.js"></script>
